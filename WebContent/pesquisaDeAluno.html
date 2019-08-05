@@ -1,0 +1,114 @@
+
+<!-- CABEÇALHO INICIO -->
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="ISO-8859-1">
+		<link rel="stylesheet" type="text/css" href="css/Locademia_Estilo.css">
+		<title>Loucademia</title>		
+	</head>
+	<body>
+		<header>
+			<img alt="Logotipo" src="images/gym.png">
+			<nav>
+				<div>
+					<a href="novoAluno.html">Novo Aluno</a><br>
+					<a href="pesquisaDeAluno.html">Pesquisa de Aluno</a><br>
+					<a href="controleDeAcesso.html">Controle de acesso</a><br>
+					<a href="relatoriosDeEntradaSaida.html">Relatório de Entradas e Saídas</a><br>
+					<a href="relatoriosDeSituacoes.html">Relatório de Situações</a><br>
+				</div>
+			</nav>		
+		</header>
+		<!-- CABEÇALHO FIM -->		
+		
+		<h1>Pesquisa de aluno</h1>
+		
+		<div id="infoMessage">
+			(Aqui vai eventual msg de sistema confirmando sucesso ou erro)
+		</div>
+		<br>
+		<form action="">
+			<fieldset>
+				<legend>Parâmeros da Pesquisa</legend>
+				
+				<label for="id">ID</label><br>
+				<input type="text" name="id" id="id"><br>
+				
+				<label for="nome">Nome</label><br>
+				<input type="text" name="nome" id="nome"><br>
+				
+				<label for="rg">RG</label><br>
+				<input type="text" name="rg" id="rg"><br>
+				
+				<label for="telefoneDDD">Telefone</label><br>
+				<input type="tel" name="telefoneDDD" id="telefoneDDD">
+				<input type="tel" name="telefoneNumero" id="telefoneNumero">
+			</fieldset>
+			
+			<br>
+			
+			<input type="submit" value="Pesquisar">
+		</form>	
+		
+		<table>
+			<tr>
+				<th>ID</th>
+				<th>Nome</th>
+				<th>RG</th>
+				<th>E-mail</th>
+				<th>Situação</th>
+				<th>Ações</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>William</td>
+				<td>222.222.222.22</td>
+				<td>williambm@gmail.com</td>
+				<td>Ativo</td>
+				<td>
+					<input type="button" value="Editar">
+					<input type="button" value="Excluir">
+				</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Carlos</td>
+				<td>333.333.333.11</td>
+				<td>carlos@ex.br</td>
+				<td>Inativo</td>
+				<td>
+					<input type="button" value="Editar">
+					<input type="button" value="Excluir">
+				</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Ronaldo</td>
+				<td>444.444.444.22</td>
+				<td>joaoDaAcademia@ui.br</td>
+				<td>Com Pendência</td>
+				<td>
+					<input type="button" value="Editar">
+					<input type="button" value="Excluir">
+				</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Ney</td>
+				<td>242.242.242.24</td>
+				<td>ney@riopesqueno.br</td>
+				<td>Ativo</td>
+				<td>
+					<input type="button" value="Editar">
+					<input type="button" value="Excluir">
+				</td>
+			</tr>
+		</table>
+		
+		
+	
+	<!-- Rodapé Inicio -->	
+	</body>
+</html>
+<!-- Rodapé Fim -->

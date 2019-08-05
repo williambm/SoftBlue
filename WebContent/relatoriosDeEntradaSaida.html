@@ -1,0 +1,90 @@
+<!-- CABEÇALHO INICIO -->
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="ISO-8859-1">
+		<link rel="stylesheet" type="text/css" href="css/Locademia_Estilo.css">
+		<title>Loucademia</title>		
+	</head>
+	<body>
+		<header>
+			<img alt="Logotipo" src="images/gym.png">
+			<nav>
+				<div>
+					<a href="novoAluno.html">Novo Aluno</a><br>
+					<a href="pesquisaDeAluno.html">Pesquisa de Aluno</a><br>
+					<a href="controleDeAcesso.html">Controle de acesso</a><br>
+					<a href="relatoriosDeEntradaSaida.html">Relatório de Entradas e Saídas</a><br>
+					<a href="relatoriosDeSituacoes.html">Relatório de Situações</a><br>
+				</div>
+			</nav>		
+		</header>
+		<!-- CABEÇALHO FIM -->
+		
+				<h1>Relatório de Entradas e Saídas</h1>
+		
+		<div id="infoMessage">
+			(Aqui vai eventual msg de sistema confirmando sucesso ou erro)
+		</div>
+		<br>
+		<form action="">
+			<fieldset>
+				<legend>Parâmeros da Entradas e Saídas</legend>
+				
+				<label for="id">ID</label><br>
+				<input type="text" name="id" id="id"><br>
+				
+				<label for="dataInicial">Data Inicial</label><br>
+				<input type="date" name="dataInicial" id="dataInicial"><br>
+				
+				<label for="dataFinal">Data Final</label><br>
+				<input type="date" name="dataFinal" id="dataFinal">
+			</fieldset>
+			
+			<br>
+			
+			<input type="submit" value="Gerar relatório">
+		</form>
+		
+		<table>
+			<tr>
+				<th>ID</th>
+				<th>Nome</th>
+				<th>Entrada</th>
+				<th>Saída</th>
+				<th>Duração</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>André</td>
+				<td>05/03/2019 09:15:17</td>
+				<td>05/03/2019 10:15:17</td>
+				<td>01:00:00</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>João</td>
+				<td>05/03/2019 09:15:17</td>
+				<td>05/03/2019 09:25:17</td>
+				<td>00:10:00</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Maria</td>
+				<td>05/03/2019 19:40:17</td>
+				<td>05/03/2019 19:55:17</td>
+				<td>00:15:00</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Bethania</td>
+				<td>05/03/2019 22:40:17</td>
+				<td>05/03/2019 23:30:17</td>
+				<td>00:50:00</td>
+			</tr>
+		</table>		
+	
+	<!-- Rodapé Inicio -->	
+	</body>
+</html>
+<!-- Rodapé Fim -->
